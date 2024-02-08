@@ -1,0 +1,28 @@
+p{
+    background-color: blue;
+    color: cornsilk;
+    border-radius: 3px;
+    padding: 60px 10px 60px 60px;
+    font-family: cursive;
+    /* margin: 10px;     */
+}
+span{
+    background-color: tomato;
+    padding: 10px;
+    color: yellow;
+    margin-left: 40PX ;
+    border-radius: 3px;
+}
+.p1{
+    color: white;
+    margin-left: 610px;
+}
+.p2{
+    color: white;
+    margin-left: 610px;
+}
+.b1{
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+}
