@@ -10,12 +10,21 @@ Result Size: 712 x 479
 ​
 <img src="./imgs/items.jpg" alt="Workplace" usemap="#workmap">
 ​
+
 <map name="workmap">
-  <area shape="rect" coords="34,44,270,350" alt="Computer" href="./imgs/mac.jpg">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="./imgs/mac.jpg" onclick="rkBuild()">
   <area shape="rect" coords="290,172,333,250" alt="Phone" href="./imgs/mobile.jpg">
-  <area shape="circle" coords="342,291,20" alt="Cup of coffee" href="./imgs/cup.jpg">
+  <area shape="circle" coords="342,291,20" alt="Cup of coffee" href="./imgs/cup.jpg" onclick="cup()">
+
 </map>
-​
+​<script>
+    function rkBuild(){
+        alert('you are sure to open rk empire')
+    } 
+    function cup(){
+      alert('you are sure to open CUP')
+  } 
+</script>
 </body>
 </html>
 ​
