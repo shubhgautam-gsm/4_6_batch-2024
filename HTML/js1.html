@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<script>
+    function chalu() {
+        document.getElementById('myImage').src = './imgs/pic_bulbon.gif';
+    }
+    function bandh() {
+        document.getElementById('myImage').src = './imgs/pic_bulboff.gif'
+    }
+</script>
+
+<body>
+
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <button onclick="chalu()">Turn on the light</button>
+
+    <img id="myImage" src="./imgs/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="bandh()">Turn off the light</button>
+
+</body>
+
+</html>
